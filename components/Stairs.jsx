@@ -13,7 +13,7 @@ const stairAnimation = {
 }
 
 const reverseIndex = (index) => {
-    const totalSteps = 4;
+    const totalSteps = 3;
     return totalSteps - index - 1;
 }
 
