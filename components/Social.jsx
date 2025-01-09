@@ -1,11 +1,14 @@
 import Link from "next/link";
 
-import {FaGithub, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
+import {FaGithub, FaLinkedinIn, FaTwitter,} from 'react-icons/fa'
+import { SiGmail } from "react-icons/si";
+
 
 const socials = [
-    { icon: <FaGithub />, link: "" },
-    { icon: <FaLinkedinIn />, link: "" },
-    { icon: <FaTwitter />, link: "" }
+    { icon: <FaGithub />, link: "https://github.com/s1lent18" },
+    { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/ali-jafar" },
+    { icon: <FaTwitter />, link: "https://x.com/s1lent_12" },
+    { icon: <SiGmail />, link: "mailto:alijafar.rajani@gmail.com" }
 ];
 
 const Social = ({containerStyles, iconStyles}) => {
