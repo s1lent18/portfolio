@@ -22,6 +22,14 @@ const Home = () => {
                 variant="outline"
                 size="lg" 
                 className="uppercase flex items-center gap-2"
+                onClick={() => {
+                  const link = document.createElement("a");
+                  link.href = "/assets/resume/AliJafar.pdf"; // Replace with the actual file path
+                  link.download = "Ali-Jafar.pdf"; // Set the downloaded file name
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
+                }}
               >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
