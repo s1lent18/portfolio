@@ -25,7 +25,7 @@ const projects = [
         title: "TasteBuds",
         desc: "A food recommendation app that lets you view recipes based on dietary preferences, calorie limits, and available ingredients.",
         stack: [{ name: "Jetpack Compose" }, { name: "Firebase" }, { name: "Gemini Fine Tune" }],
-        image: "/assets/work/Prob.png",
+        image: "/assets/work/TasteBuds.png",
         download: "https://github.com/s1lent18/RecipeOrganizer/releases/download/v1/TasteBuds.apk",
         github: "https://github.com/s1lent18/RecipeOrganizer",
     },
