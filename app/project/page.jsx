@@ -22,6 +22,16 @@ const projects = [
     {
         num: "01",
         category: "Android",
+        title: "TasteBuds",
+        desc: "A food recommendation app that lets you view recipes based on dietary preferences, calorie limits, and available ingredients.",
+        stack: [{ name: "Jetpack Compose" }, { name: "Firebase" }, { name: "Gemini Fine Tune" }],
+        image: "/assets/work/Prob.png",
+        download: "https://github.com/s1lent18/RecipeOrganizer/releases/download/v1/TasteBuds.apk",
+        github: "https://github.com/s1lent18/RecipeOrganizer",
+    },
+    {
+        num: "02",
+        category: "Android",
         title: "ProbStats",
         desc: "Android App for Solving Probability and Statistics Questions",
         stack: [{ name: "Jetpack Compose" }, { name: "Flask" }, { name: "Firebase" }],
@@ -30,7 +40,7 @@ const projects = [
         github: "https://github.com/s1lent18/ProbStats",
     },
     {
-        num: "02",
+        num: "03",
         category: "Android",
         title: "Mezbaan",
         desc: "Mezbaan is an all-in-one platform that simplifies event planning by enabling users to book venues, manage decorations, and arrange catering services",
@@ -40,7 +50,7 @@ const projects = [
         github: "https://github.com/s1lent18/Mezbaan",
     },
     {
-        num: "03",
+        num: "04",
         category: "ML",
         title: "Fraud Detection",
         desc: "Fraud Detection in Financial Transactions Using Graph Analysis",
