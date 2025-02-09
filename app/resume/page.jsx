@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import dynamic from "next/dynamic";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider } from "@/components/ui/tooltip";
 import { Tabs, TabsList, TabsContent, TabsTrigger } from "@/components/ui/tabs";
@@ -153,6 +154,8 @@ const tools = {
     ]
 }
 
+const GitHubCalendar = dynamic(() => import("react-github-calendar"), { ssr: false });
+
 const Resume = () => {
     return (
         <motion.div 
@@ -174,6 +177,7 @@ const Resume = () => {
                     <TabsTrigger value="languages">Languages</TabsTrigger>
                     <TabsTrigger value="techstack">TechStack</TabsTrigger>
                     <TabsTrigger value="tools">Tools</TabsTrigger>
+                    <TabsTrigger value="github">GitHub</TabsTrigger>
                     </TabsList>
                     <div className="min-h-[70vh] w-full">
                         <TabsContent value="about" className="w-full text-center xl:text-left">
@@ -294,6 +298,16 @@ const Resume = () => {
                                     })}
                                 </ul>
                             </div>
+                        </TabsContent>
+                        <TabsContent value="github" className="w-full text-center">
+                            <h3 className="text-4xl font-bold mb-6">GitHub Contributions</h3>
+                            <GitHubCalendar 
+                                username="s1lent18" 
+                                blockSize={10} 
+                                blockMargin={3} 
+                                color="#c084f5" 
+                                fontSize={12} 
+                            />
                         </TabsContent>
                     </div>
                 </Tabs>
