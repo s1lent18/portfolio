@@ -14,6 +14,7 @@ import {
     DiGit,
     DiJava,
     DiVisualstudio,
+    DiIntellij
 } from "react-icons/di";
 import {
     SiGithub,
@@ -24,7 +25,8 @@ import {
     SiPostgresql,
     SiKotlin,
     SiFlask,
-    SiPostman
+    SiPostman,
+    SiSpringboot
 } from "react-icons/si";
 
 const about = {
@@ -116,6 +118,10 @@ const techstack = {
             icon: <SiFlask />,
             skill: "Flask"
         },
+        {
+            icon: <SiSpringboot />,
+            skill: "Spring Boot"
+        }
     ]
 }
 
@@ -151,6 +157,10 @@ const tools = {
             icon: <SiPostman />,
             skill: "Postman"
         },
+        {
+            icon: <DiIntellij />,
+            skill: "IntelliJ"
+        }
     ]
 }
 

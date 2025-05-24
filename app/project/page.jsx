@@ -31,7 +31,7 @@ const projects = [
     },
     {
         num: "02",
-        category: "Android",
+        category: "Full-Stack App",
         title: "ProbStats",
         desc: "Android App for Solving Probability and Statistics Questions",
         stack: [{ name: "Jetpack Compose" }, { name: "Flask" }, { name: "Firebase" }],
@@ -58,6 +58,16 @@ const projects = [
         image: "/assets/work/FraudDetection.png",
         download: "",
         github: "https://github.com/s1lent18/Fraud-Detection",
+    },
+    {
+        num: "05",
+        category: "Android",
+        title: "Chatting-App",
+        desc: "A Discord Like Chatting App with Channels for sharing Multi-Media, Messages, Voice and Video Calls",
+        stack: [{ name: "Jetpack Compose" }, { name: "Firebase" } ],
+        image: "/assets/work/Chatter.png",
+        download: "",
+        github: "https://github.com/s1lent18/ChattingApp",
     }
 ];
 
