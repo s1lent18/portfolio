@@ -26,7 +26,13 @@ import {
     SiKotlin,
     SiFlask,
     SiPostman,
-    SiSpringboot
+    SiSpringboot,
+    SiNumpy,
+    SiPandas,
+    SiScikitlearn,
+    SiRedis,
+    SiApachekafka,
+    SiDocker
 } from "react-icons/si";
 
 const about = {
@@ -121,6 +127,30 @@ const techstack = {
         {
             icon: <SiSpringboot />,
             skill: "Spring Boot"
+        },
+        {
+            icon: <SiNumpy />,
+            skill: "Numpy"
+        },
+        {
+            icon: <SiPandas />,
+            skill: "Pandas"
+        },
+        {
+            icon: <SiScikitlearn />,
+            skill: "Sci-kit Learn"
+        },
+        {
+            icon: <SiRedis />,
+            skill: "Redis"
+        },
+        {
+            icon: <SiApachekafka />,
+            skill: "Kafka"
+        },
+        {
+            icon: <SiDocker />,
+            skill: "Docker"
         }
     ]
 }
