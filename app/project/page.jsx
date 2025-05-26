@@ -68,6 +68,17 @@ const projects = [
         image: "/assets/work/Chatter.png",
         download: "",
         github: "https://github.com/s1lent18/ChattingApp",
+    },
+    {
+        num: "06",
+        category: "Android & Computer Vision",
+        title: "Thumb Recognizer",
+        desc: "An Android App for recognizing thumbs using Computer Vision - SIFT",
+        stack: [{ name: "Jetpack Compose" }, { name: "Flask" }, { name: "Computer Vision" } ],
+        image: "/assets/work/Thumb-Recognizer.png",
+        download: "",
+        github: "https://github.com/s1lent18/thumb-recognizer",
+    
     }
 ];
 

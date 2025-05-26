@@ -8,7 +8,7 @@ const stats = [
         text: "rd Year in University"
     },
     {
-        num: 5,
+        num: 6,
         text: "Projects Completed"
     }
 ]
