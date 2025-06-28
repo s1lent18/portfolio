@@ -79,6 +79,16 @@ const projects = [
         download: "",
         github: "https://github.com/s1lent18/thumb-recognizer",
     
+    },
+    {
+        num: "07",
+        category: "Chrome Extension",
+        title: "Key-Masker",
+        desc: "A Chrome extension to hide your secret keys when using a GPT",
+        stack: [{ name: "Vanilla JS" } ],
+        image: "/assets/work/ChromeExtension.png",
+        download: "",
+        github: "https://github.com/s1lent18/Key-Masker",
     }
 ];
 
