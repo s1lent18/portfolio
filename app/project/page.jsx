@@ -44,7 +44,7 @@ const projects = [
         category: "Android",
         title: "Mezbaan",
         desc: "Mezbaan is an all-in-one platform that simplifies event planning by enabling users to book venues, manage decorations, and arrange catering services",
-        stack: [{ name: "Jetpack Compose" }, { name: "NodeJS" }, { name: "PostgreSQL" }],
+        stack: [{ name: "Jetpack Compose" }, { name: "Spring Boot" }, { name: "PostgreSQL" }],
         image: "/assets/work/Mezbaan.png",
         download: "https://github.com/s1lent18/Mezbaan/releases/download/1.00/Mezbaan.apk",
         github: "https://github.com/s1lent18/Mezbaan",
