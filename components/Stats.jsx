@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 const stats = [
     {
         num: 4,
-        text: "rd Year in University"
+        text: "th Year in University"
     },
     {
         num: 7,
