@@ -54,6 +54,24 @@ const about = {
     ]
 };
 
+const experience = {
+    icon: "/assets/resume/cap.svg",
+    title: "My Experience",
+    description: "",
+    item: [
+        {
+            institution: "Disrupt.com",
+            degree: "Android Intern",
+            duration: "Mar 2026  - Present"
+        },
+        {
+            institution: "Bridges of Hopes",
+            degree: "Android Volunteer",
+            duration: "Jun 2025 - Oct 25"
+        },
+    ]
+}
+
 const education = {
     icon: "/assets/resume/cap.svg",
     title: "My Education",
@@ -213,6 +231,7 @@ const Resume = () => {
                 >
                     <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
                     <TabsTrigger value="about">About</TabsTrigger>
+                    <TabsTrigger value="education">Experience</TabsTrigger>
                     <TabsTrigger value="education">Education</TabsTrigger>
                     <TabsTrigger value="languages">Languages</TabsTrigger>
                     <TabsTrigger value="techstack">TechStack</TabsTrigger>
@@ -234,6 +253,31 @@ const Resume = () => {
                                         );
                                     })}
                                 </ul>
+                            </div>
+                        </TabsContent>
+                        <TabsContent value="experience" className="w-full">
+                            <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                                <h3 className="text-4xl font-bold">{education.title}</h3>
+                                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{education.description}</p>
+                                <ScrollArea className="h-[400px]">
+                                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                                        {education.item.map((item, index) => {
+                                            return (
+                                                <li
+                                                    key={index}
+                                                    className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                                                >
+                                                    <span className="text-accent">{item.duration}</span>
+                                                    <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.degree}</h3>
+                                                    <div className="flex items-center gap-3">
+                                                        <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                                                        <p className="text-white/60">{item.institution}</p>
+                                                    </div>
+                                                </li>
+                                            )
+                                        })}
+                                    </ul>
+                                </ScrollArea>
                             </div>
                         </TabsContent>
                         <TabsContent value="education" className="w-full">
