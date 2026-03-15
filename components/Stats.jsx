@@ -6,7 +6,7 @@ const stats = [
     {
         num: 6,
         text: "Months of Experience"
-    }
+    },
     {
         num: 4,
         text: "th Year in University"
