@@ -100,25 +100,25 @@ const languages = {
     description: "",
     item: [
         {
-            icon: <SiC />,
-            skill: "C"
-        },
-        {
-            icon: <CgCPlusPlus />,
-            skill: "C++"
-        },
-        {
-            icon: <DiPython />,
-            skill: "Python"
+            icon: <SiKotlin />,
+            skill: "Kotlin"
         },
         {
             icon: <DiJava />,
             skill: "Java"
         },
         {
-            icon: <SiKotlin />,
-            skill: "Kotlin"
+            icon: <DiPython />,
+            skill: "Python"
         },
+        {
+            icon: <CgCPlusPlus />,
+            skill: "C++"
+        },
+        {
+            icon: <SiC />,
+            skill: "C"
+        }
     ]
 }
 
@@ -131,8 +131,8 @@ const techstack = {
             skill: "Android"
         },
         {
-            icon: <DiMongodb />,
-            skill: "MongoDB"
+            icon: <SiSpringboot />,
+            skill: "Spring Boot"
         },
         {
             icon: <SiPostgresql />,
@@ -142,10 +142,7 @@ const techstack = {
             icon: <SiFlask />,
             skill: "Flask"
         },
-        {
-            icon: <SiSpringboot />,
-            skill: "Spring Boot"
-        },
+        
         {
             icon: <SiNumpy />,
             skill: "Numpy"
@@ -159,12 +156,12 @@ const techstack = {
             skill: "Sci-kit Learn"
         },
         {
-            icon: <SiRedis />,
-            skill: "Redis"
+            icon: <DiMongodb />,
+            skill: "MongoDB"
         },
         {
-            icon: <SiApachekafka />,
-            skill: "Kafka"
+            icon: <SiRedis />,
+            skill: "Redis"
         },
         {
             icon: <SiDocker />,
@@ -178,20 +175,28 @@ const tools = {
     description: "",
     item: [
         {
-            icon: <DiGit />,
-            skill: "Git"
-        },
-        {
-            icon: <SiUbuntu />,
-            skill: "Ubuntu"
-        },
-        {
             icon: <SiAndroidstudio />,
             skill: "Android Studio"
         },
         {
             icon: <SiFirebase />,
             skill: "Firebase"
+        },
+        {
+            icon: <DiIntellij />,
+            skill: "IntelliJ"
+        },
+        {
+            icon: <SiPostman />,
+            skill: "Postman"
+        },
+        {
+            icon: <DiGit />,
+            skill: "Git"
+        },
+        {
+            icon: <SiUbuntu />,
+            skill: "Ubuntu"
         },
         {
             icon: <SiGithub />,
@@ -201,14 +206,6 @@ const tools = {
             icon: <DiVisualstudio />,
             skill: "VsCode"
         },
-        {
-            icon: <SiPostman />,
-            skill: "Postman"
-        },
-        {
-            icon: <DiIntellij />,
-            skill: "IntelliJ"
-        }
     ]
 }
 
