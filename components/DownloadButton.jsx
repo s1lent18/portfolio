@@ -6,8 +6,8 @@ import { FiDownload } from "react-icons/fi";
 const DownloadButton = () => {
     const handleDownload = () => {
       const link = document.createElement("a");
-      link.href = "/assets/resume/AliJafar.pdf"; // Replace with the actual file path
-      link.download = "Ali-Jafar.pdf";
+      link.href = "/assets/resume/Ali_Jafar_Backend_Resume.pdf";
+      link.download = "Ali Jafar - Resume.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
