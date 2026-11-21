@@ -19,6 +19,10 @@ import {
 import {
     SiGithub,
     SiC,
+    SiTypescript,
+    SiGo,
+    SiMicrosoftsqlserver,
+    SiKubernetes,
     SiUbuntu,
     SiAndroidstudio,
     SiFirebase,
@@ -60,13 +64,18 @@ const experience = {
     description: "",
     item: [
         {
+            "institution": "BenchMatrix",
+            "degree": "Software Engineer",
+            "duration": "Oct 2026 - Present"
+        },
+        {
             institution: "Disrupt.com",
             degree: "Android Intern",
-            duration: "Mar 2026  - Present"
+            duration: "Mar 2026  - Oct 2026"
         },
         {
             institution: "Bridges of Hopes",
-            degree: "Android Volunteer",
+            degree: "Android Intern",
             duration: "Jun 2025 - Oct 25"
         },
     ]
@@ -108,8 +117,16 @@ const languages = {
             skill: "Java"
         },
         {
+            icon: <SiGo />,
+            skill: "Go"
+        },
+        {
             icon: <DiPython />,
             skill: "Python"
+        },
+        {
+            icon: <SiTypescript />,
+            skill: "TypeScript"
         },
         {
             icon: <CgCPlusPlus />,
@@ -139,10 +156,17 @@ const techstack = {
             skill: "PostgreSQL"
         },
         {
+            icon: <SiKubernetes />,
+            skill: "K8s"
+        },
+        {
+            icon: <SiMicrosoftsqlserver />,
+            skill: "SQL Server"
+        },
+        {
             icon: <SiFlask />,
             skill: "Flask"
         },
-        
         {
             icon: <SiNumpy />,
             skill: "Numpy"
